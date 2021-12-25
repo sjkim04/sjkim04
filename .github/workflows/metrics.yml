@@ -59,7 +59,7 @@ jobs:
           plugin_notable: yes
           plugin_habits: yes
           plugin_habits_from: 200       # Use 200 events to compute habits
-          plugin_habits_days: 14        # Keep only events from last 14 days
+          plugin_habits_days: 30        # Keep only events from last 14 days
           plugin_habits_facts: yes      # Display facts section
           plugin_habits_charts: yes     # Display charts section
           plugin_habits_skipped: sjkim04/sjkim04, seishousetsu, massivedecks, breakout, 2048, mariohtml5, hextris, openNAMU, massivedecks
