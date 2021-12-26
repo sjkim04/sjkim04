@@ -26,12 +26,12 @@ jobs:
           plugin_activity_limit: 5
           plugin_activity_load: 300
           plugin_activity_visibility: public
-          plugin_activity_skipped: sjkim04, seishousetsu, massivedecks, breakout, 2048, mariohtml5, hextris, openNAMU
+          plugin_activity_skipped: sjkim04, seishousetsu, massivedecks, breakout, 2048, mariohtml5, hextris, sjkim04/openNAMU, openNAMU/openNAMU
           plugin_code: yes
           plugin_code_lines: 12
           plugin_code_load: 100
           plugin_code_visibility: public
-          plugin_code_skipped: sjkim04/sjkim04, seishousetsu, massivedecks, breakout, 2048, mariohtml5, hextris, sjkim04/openNAMU, massivedecks
+          plugin_code_skipped: sjkim04/sjkim04, seishousetsu, massivedecks, breakout, 2048, mariohtml5, hextris, sjkim04/openNAMU, massivedecks, openNAMU/openNAMU
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
           plugin_languages: yes
