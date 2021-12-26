@@ -22,7 +22,7 @@ jobs:
           config_timezone: Asia/Tokyo
           plugin_activity: yes
           plugin_activity_days: 365
-          plugin_activity_filter: all
+          plugin_activity_filter: ref/create, release, push, pr, wiki
           plugin_activity_limit: 3
           plugin_activity_load: 300
           plugin_activity_visibility: public
