@@ -50,6 +50,7 @@ jobs:
           plugin_lines_skipped: sjkim04/sjkim04, seishousetsu, massivedecks, breakout, 2048, mariohtml5, hextris, openNAMU, massivedecks
           plugin_music: yes
           plugin_music_provider: youtube
+          plugin_music_mode: recent
           plugin_music_limit: 4
           plugin_music_time_range: medium
           plugin_music_top_type: tracks
