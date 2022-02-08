@@ -49,9 +49,8 @@ jobs:
           plugin_lines: yes
           plugin_lines_skipped: sjkim04/sjkim04, seishousetsu, massivedecks, breakout, 2048, mariohtml5, hextris, openNAMU, massivedecks
           plugin_music: yes
-          plugin_music_provider: youtube # Use Spotify as provider
-          plugin_music_mode: top      # Set plugin mode
-          plugin_music_limit: 4          # Limit to 4 entries
+          plugin_music_provider: youtube
+          plugin_music_limit: 4
           plugin_music_time_range: medium
           plugin_music_top_type: tracks
           plugin_music_token: "${{ secrets.YOUTUBE_COOKIE }}"
@@ -60,7 +59,7 @@ jobs:
           plugin_notable_indepth: yes
           plugin_habits: yes
           plugin_habits_from: 500       # Use 500 events to compute habits
-          plugin_habits_days: 30        # Keep only events from last 14 days
+          plugin_habits_days: 30
           plugin_habits_facts: yes      # Display facts section
           plugin_habits_skipped: sjkim04/sjkim04, seishousetsu, massivedecks, breakout, 2048, mariohtml5, hextris, openNAMU, massivedecks
 
