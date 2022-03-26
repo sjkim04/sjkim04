@@ -62,5 +62,4 @@ jobs:
           plugin_habits_from: 500       # Use 500 events to compute habits
           plugin_habits_days: 30
           plugin_habits_facts: yes      # Display facts section
-          plugin_habits_skipped: sjkim04/sjkim04, seishousetsu, massivedecks, breakout, 2048, mariohtml5, hextris, openNAMU, massivedecks
 
