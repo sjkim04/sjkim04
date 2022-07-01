@@ -10,7 +10,7 @@ jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      - uses: lowlighter/metrics@latest
+      - uses: lowlighter/metrics@main
         with:
           # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
@@ -66,13 +66,14 @@ jobs:
           plugin_notable_repositories: yes
           plugin_notable_indepth: yes
           
+          # Coding Habits plugin
           plugin_habits: yes
           plugin_habits_from: 500       # Use 500 events to compute habits
           plugin_habits_days: 30
           plugin_habits_facts: yes      # Display facts section
           
+          # PageSpeed plugin
           plugin_pagespeed: yes
           plugin_pagespeed_detailed: yes
           plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
           plugin_pagespeed_url: https://adofai.gg
-
