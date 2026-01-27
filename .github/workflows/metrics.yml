@@ -10,7 +10,7 @@ jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      - uses: lowlighter/metrics@main
+      - uses: gh-metrics/metrics@main
         with:
           # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
@@ -28,7 +28,6 @@ jobs:
           plugin_activity_load: 300
           plugin_activity_visibility: public
           plugin_activity_skipped: sjkim04
-          plugin_activity_ignored: surplus-dev
           
           plugin_code: yes
           plugin_code_lines: 12
@@ -64,3 +63,11 @@ jobs:
           plugin_habits_from: 500       # Use 500 events to compute habits
           plugin_habits_days: 30
           plugin_habits_facts: yes      # Display facts section
+
+          plugin_chess: yes
+          plugin_chess_token: ${{secrets.CHESS_TOKEN}}
+          plugin_chess_platform: lichess.org
+
+          plugin_16personalities: yes
+          plugin_16personalities_url: ${{secrets.MBTI_URL}}
+          
